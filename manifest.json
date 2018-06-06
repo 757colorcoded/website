@@ -1,0 +1,10 @@
+{
+  "name": "757ColorCoded",
+  "short_name": "757ColorCoded",
+  "description": "757ColorCoded",
+  "start_url": "/",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "standalone",
+  "orientation": "portrait"
+}
