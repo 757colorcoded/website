@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "description": "757ColorCoded Website",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "APP_ENV=test",
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "phantomjs-prebuilt": "^2.1.14",
+    "vue": "^2.3.4",
+    "webpack": "^1.14.0"
+  }
+}
