@@ -1,0 +1,66 @@
+body {
+    background: black;
+    border-top: 10px solid red;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#content {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.display {
+    font-size: 5em;
+}
+
+.lead {
+    color: #aaa;
+    font-family: Georgia;
+    font-size: 1.5em;
+    padding: 5px 0 15px;
+}
+
+section {
+    border: 1px solid #333;
+    margin-top: 2em;
+    padding: 25px;
+}
+
+section h1 {
+    font-size: 2em;
+    font-style: normal;
+}
+
+.meetup-event-intro {
+    color: red;
+    font-variant: small-caps;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+time, .address {
+    color: palegoldenrod;
+    font-weight: bold;
+}
+
+.address {
+    display: inline-block;
+}
+
+a {
+    color: #999;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+    color: #999;
+    margin-top: 2em;
+}
