@@ -16,15 +16,9 @@ body {
     font-size: 5em;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .display {
-        font-size: 3em;
-    }
-}
-
 .lead {
     color: #aaa;
-    font-family: Georgia;
+    font-family: Georgia, serif;
     font-size: 1.5em;
     padding: 5px 0 15px;
 }
@@ -48,6 +42,11 @@ section h1 {
     text-transform: lowercase;
 }
 
+
+.meetup-description {
+    font-family: Georgia, serif;
+}
+
 time, .address {
     color: palegoldenrod;
     font-weight: bold;
@@ -69,4 +68,23 @@ a:hover {
 footer {
     color: #999;
     margin-top: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    .display {
+        font-size: 2em;
+    }
+
+    .lead {
+        font-size: 1em;
+        padding: 0;
+    }
+
+    section h1 {
+        font-size: 1.2em;
+    }
+
+    .meetup-description {
+        font-size: .8em;
+    }
 }
