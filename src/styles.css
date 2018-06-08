@@ -71,8 +71,14 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+
+    #content {
+        margin: 0 auto;
+        width: 75%;
+    }
+
     .display {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .lead {
