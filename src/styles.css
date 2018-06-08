@@ -9,11 +9,17 @@ body {
 
 #content {
     margin: 0 auto;
-    width: 600px;
+    width: 50%;
 }
 
 .display {
     font-size: 5em;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .display {
+        font-size: 3em;
+    }
 }
 
 .lead {
