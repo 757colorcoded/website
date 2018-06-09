@@ -20,7 +20,7 @@ body {
     color: #aaa;
     font-family: Georgia, serif;
     font-size: 1.5em;
-    padding: 5px 0 15px;
+    padding: 5px 0;
 }
 
 section {
@@ -36,15 +36,22 @@ section h1 {
 
 .meetup-event-intro {
     color: red;
+    font-size: 1.2em;
     font-variant: small-caps;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: lowercase;
 }
 
-
 .meetup-description {
     font-family: Georgia, serif;
+}
+
+.btn {
+    background: red;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 time, .address {
@@ -70,13 +77,23 @@ footer {
     margin-top: 2em;
 }
 
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 1120px) {
     #content {
-        margin: 0 auto;
         width: 75%;
     }
 
+    .display {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .display {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .display {
         font-size: 2.5em;
     }
