@@ -15,7 +15,9 @@ var MeetupEvent = function () {
         description = e.description;
         dateTime = new Date(e.time);
         humanDateTime = dateTime.toLocaleString("en-US", { timeZoneName: "short" });
-        location = e.venue.name;
+        if (typeof e.venue != "undefined") {
+            location = e.venue.name;
+        }
         init();
     };
     return { setEvent: setEvent };
