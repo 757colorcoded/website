@@ -3,13 +3,29 @@ body {
     border-top: 10px solid red;
     color: white;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
-    padding-top: 5%;
+    padding-top: 0;
     text-align: center;
 }
 
 #content {
     margin: 0 auto;
     width: 50%;
+}
+
+#special-event {
+    background: red;
+    margin: 0 0 50px;
+    padding: 20px;
+}
+
+#special-event p {
+    margin: 0;
+    padding: 0;
+}
+
+#special-event a {
+    color: #fff;
+    font-weight: bold;
 }
 
 .display {
